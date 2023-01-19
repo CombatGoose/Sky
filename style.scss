@@ -9,6 +9,8 @@ body {
         width: 100%;
         height: 1065px;
         background-image: url(./img/BG.png);
+        background-repeat: no-repeat;
+        background-size: 100%;
         .header-container {
             margin-left: 292px;
             .first-header-block {
@@ -152,6 +154,36 @@ body {
                      }
                    }
             }
+        }
+    }
+    main {
+        .main-up-block {
+            display: flex;
+          .main-up-block-list {
+            margin-top: 180px;
+            margin-left: -50px;
+          }
+          .main-up-block-ul {
+            .main-ul-li {
+               
+             pre {
+                        color: #2B4964;
+                        font-family: 'Montserrat';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 150%;
+             }
+                .li-p-text {
+                    color: #3B668D;
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 36px;
+                    line-height: 60px;
+                }
+            }
+          }
         }
     }
 }
