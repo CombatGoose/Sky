@@ -145,26 +145,304 @@ body header .header-container .second-header-container .online-storage-text .sec
   margin-left: 30px;
   margin-top: 20px;
 }
+body main .main-up-block-img {
+  margin-left: -50px;
+}
 body main .main-up-block {
   display: flex;
 }
-body main .main-up-block .main-up-block-list {
-  margin-top: 180px;
-  margin-left: -50px;
+body main .main-up-block .main-up-blocks {
+  margin-top: 200px;
 }
-body main .main-up-block .main-up-block-ul .main-ul-li pre {
-  color: #2B4964;
-  font-family: "Montserrat";
-  font-style: normal;
-  font-weight: 400;
-  font-size: 18px;
-  line-height: 150%;
-}
-body main .main-up-block .main-up-block-ul .main-ul-li .li-p-text {
+body main .main-up-block ul li .content .main-p {
   color: #3B668D;
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
   font-size: 36px;
   line-height: 60px;
+}
+body main .main-up-block ul li .content .content-p {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 150%;
+  width: 438px;
+  color: #2B4964;
+}
+body main .main-up-block ul li .icons {
+  margin-top: -10px;
+  margin-left: -150px;
+  position: absolute;
+  display: flex;
+}
+body main .main-up-block ul li .icons .plus-icon {
+  margin-top: 15px;
+  margin-left: -75px;
+  width: 82px;
+  height: 62px;
+}
+body main .main-up-block ul li .icons .icon-bg {
+  width: 94px;
+  height: 91px;
+}
+body main .main-up-block ul li .icons .icon-content {
+  width: 42px;
+  height: 42px;
+  margin-top: 25px;
+  margin-left: -70px;
+}
+body main .middleMain .middleMain-text .m-main-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 72px;
+  line-height: 84px;
+  text-align: center;
+  letter-spacing: 0.285em;
+  text-transform: uppercase;
+  color: #3B668D;
+}
+body main .middleMain .middleMain-text .m-text {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 37px;
+  text-align: center;
+  color: #79788F;
+}
+body main .middleMain .buy-container {
+  display: flex;
+}
+body main .middleMain .buy-container img {
+  margin-top: 200px;
+}
+body main .middleMain .buy-container .buy-cont-wrapper {
+  display: flex;
+  justify-content: space-around;
+}
+body main .middleMain .buy-container .buy-cont-wrapper .cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body main .middleMain .buy-container .buy-cont-wrapper .cont ul {
+  margin-top: 194px;
+}
+body main .middleMain .buy-container .buy-cont-wrapper .cont ul li {
+  margin-top: 20px;
+  display: flex;
+  color: #567796;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 300;
+  font-size: 18px;
+  line-height: 100%;
+}
+body main .middleMain .buy-container .buy-cont-wrapper .cont ul li svg {
+  margin-left: 200px;
+  position: absolute;
+}
+body main .middleMain .buy-container .buy-cont-wrapper .days {
+  color: #3B668D;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 38px;
+  line-height: 54px;
+}
+body main .middleMain .buy-container .buy-cont-wrapper .sum {
+  margin-top: 20px;
+  color: #8572FF;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 54px;
+  line-height: 71px;
+}
+body main .middleMain .buy-container .first-buy-container {
+  margin-top: 300px;
+  width: 350px;
+  height: 844px;
+  margin-left: -165px;
+}
+body main .middleMain .buy-container .first-buy-container img {
+  margin-top: -0.1px;
+  margin-left: -45px;
+}
+body main .middleMain .buy-container .second-buy-container {
+  width: 480px;
+  height: 1013px;
+  margin-top: 200px;
+  margin-left: 65px;
+}
+body main .middleMain .buy-container .second-buy-container .second-cont-button {
+  margin-top: 108px;
+  width: 308px;
+  height: 79px;
+  background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+  border-radius: 62px;
+  border: none;
+  color: #FFFFFF;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+}
+body main .middleMain .buy-container .second-buy-container .guarantee {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+  color: #567796;
+  margin-top: 50px;
+}
+body main .middleMain .buy-container .second-buy-container .dayz {
+  margin-top: 20px;
+}
+body main .middleMain .buy-container .second-buy-container .popul {
+  margin-top: 150px;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 100%;
+}
+body main .middleMain .buy-container .second-buy-container img {
+  margin-top: 0.1px;
+  width: 500px;
+  margin-left: 20px;
+  position: absolute;
+}
+body main .middleMain .buy-container .third-buy-container {
+  margin-left: 60px;
+  width: 350px;
+  height: 864px;
+  margin-top: 300px;
+}
+body main .middleMain .buy-container .third-buy-container .dayt {
+  margin-top: 150px;
+}
+body main .middleMain .buy-container .third-buy-container img {
+  margin-top: -0.1px;
+  width: 350px;
+  position: absolute;
+}
+body main .underMain {
+  margin-top: 200px;
+  display: flex;
+}
+body main .underMain .underMain-block svg {
+  position: absolute;
+}
+body main .underMain .underMain-block .underMain-text {
+  margin-left: 120px;
+}
+body main .underMain .underMain-block .underMain-number {
+  color: #425B8C;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+}
+body main .underMain .underMain-block .downloaded {
+  color: #718DC2;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+}
+body main .underMain .first-under-block {
+  margin-left: 102px;
+  display: flex;
+  width: 400px;
+}
+body main .underMain .second-under-block {
+  display: flex;
+  margin-left: 60px;
+}
+body main .underMain .group-bg {
+  position: absolute;
+  margin-left: 710px;
+}
+body footer {
+  background-image: url(./img/BG\(6\).png);
+  width: 100%;
+  height: 1085px;
+  margin-top: 245px;
+  position: absolute;
+}
+body footer .upper-footer {
+  margin-top: 400px;
+  margin-left: 50px;
+  display: flex;
+}
+body footer .upper-footer .about .about-us {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: white;
+  margin-bottom: 70px;
+}
+body footer .upper-footer .about .first-many-information {
+  width: 418px;
+  color: white;
+}
+body footer .upper-footer .featured {
+  margin-left: 70px;
+}
+body footer .upper-footer .featured ul .feature {
+  color: white;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+}
+body footer .upper-footer .featured ul li {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-top: 20px;
+  color: white;
+}
+body footer .upper-footer .featured ul li a {
+  color: white;
+}
+body footer .upper-footer .contact {
+  margin-left: 170px;
+}
+body footer .upper-footer .contact ul .contact-us {
+  color: white;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+}
+body footer .upper-footer .contact ul li {
+  color: white;
+  margin-top: 20px;
+}
+body footer .bottom-footer .hrr {
+  margin-top: 100px;
+  color: #FFFFFF;
+  width: 90%;
+}
+body footer .bottom-footer p {
+  color: white;
+  text-align: center;
+  margin-top: 165px;
 }/*# sourceMappingURL=style.css.map */

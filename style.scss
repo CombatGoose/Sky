@@ -157,33 +157,327 @@ body {
         }
     }
     main {
+        .main-up-block-img {
+            margin-left: -50px;
+        }
         .main-up-block {
             display: flex;
-          .main-up-block-list {
-            margin-top: 180px;
-            margin-left: -50px;
-          }
-          .main-up-block-ul {
-            .main-ul-li {
-               
-             pre {
-                        color: #2B4964;
+           .main-up-blocks {
+            margin-top: 200px;
+           }
+            ul {
+                li {
+                    .content {
+                        .main-p {
+                            color: #3B668D;  
+                            font-family: 'Roboto';
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 36px;
+                            line-height: 60px;
+                        }
+                        .content-p {     
                         font-family: 'Montserrat';
                         font-style: normal;
                         font-weight: 400;
                         font-size: 18px;
                         line-height: 150%;
-             }
-                .li-p-text {
-                    color: #3B668D;
-                    font-family: 'Roboto';
-                    font-style: normal;
-                    font-weight: 400;
-                    font-size: 36px;
-                    line-height: 60px;
+                        width: 438px;
+                        color: #2B4964;
+                        }
+                    }
+                    .icons {
+                        margin-top: -10px;
+                        margin-left: -150px;
+                        position: absolute;
+                        display: flex;
+                        .plus-icon {
+                           margin-top: 15px;
+                           margin-left: -75px;
+                           width: 82px;
+                           height: 62px;
+                        }
+                        .icon-bg {
+                            width: 94px;
+                            height: 91px;
+                        }
+                        .icon-content {
+                            width: 42px;
+                            height: 42px;
+                            margin-top: 25px;
+                            margin-left: -70px;
+                        }
+                    }
                 }
             }
-          }
         }
-    }
-}
+        .middleMain {
+            .middleMain-text {
+                .m-main-text {
+                    font-family: 'Roboto';
+                    font-style: normal;
+                    font-weight: 300;
+                    font-size: 72px;
+                    line-height: 84px;
+                    text-align: center;
+                    letter-spacing: 0.285em;
+                    text-transform: uppercase;
+                    color: #3B668D;
+                }
+                .m-text {
+                    font-family: 'Montserrat';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 30px;
+                    line-height: 37px;
+                    text-align: center;
+                    color: #79788F;
+                }
+            }
+           .buy-container {
+            display: flex;
+            img {
+                margin-top: 200px;
+            }
+            .buy-cont-wrapper {
+                display: flex;
+                justify-content: space-around;
+                .cont {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                  ul {
+                    margin-top: 194px;
+                    li {
+                        margin-top: 20px;
+                            display: flex;
+                            color: #567796;
+                            font-family: 'Comfortaa';
+                            font-style: normal;
+                            font-weight: 300;
+                            font-size: 18px;
+                            line-height: 100%;
+                            svg {
+                                margin-left: 200px;
+                                position: absolute;
+                            }
+                    }
+                  }
+                    }
+                    .days {
+                        color: #3B668D;
+                        font-family: 'Comfortaa';
+                        font-style: normal;
+                        font-weight: 600;
+                        font-size: 38px;
+                        line-height: 54px;
+                    }
+                    .sum {
+                        margin-top: 20px;
+                        color: #8572FF;     
+                        font-family: 'Comfortaa';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 54px;
+                        line-height: 71px;
+                    }
+                }
+            .first-buy-container {
+                margin-top: 300px;
+                width: 350px;
+                height: 844px;
+                margin-left: -165px;
+                img {
+                    margin-top: -0.1px;
+                    margin-left: -45px;
+                }
+            }
+            .second-buy-container {
+                width: 480px;
+                height: 1013px;
+                margin-top: 200px;
+                margin-left: 65px;
+                .second-cont-button {
+                    margin-top: 108px;
+                    width: 308px;
+                    height: 79px;
+                    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+                    border-radius: 62px;
+                    border: none;
+                    color: #FFFFFF;
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 20px;
+                    line-height: 27px;
+                }
+                .guarantee {
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 100%;
+                    color: #567796;
+                    margin-top: 50px;
+                }
+                .dayz {
+                    margin-top: 20px;
+                }
+                .popul {
+                    margin-top: 150px;
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 100%;
+                }
+                img {
+                    margin-top: 0.1px;
+                    width: 500px;
+                    margin-left: 20px;
+                    position: absolute;
+                }
+            }
+            .third-buy-container {
+                margin-left: 60px;
+                width: 350px;
+                height: 864px;
+                margin-top: 300px;
+                .dayt {
+                    margin-top: 150px;
+                }
+                img {
+                    margin-top: -0.1px;
+                    width: 350px;
+                    position: absolute;
+                }
+            }
+        }
+           }
+           .underMain {
+            margin-top: 200px;
+            display: flex;
+            .underMain-block {
+                svg {
+                    position: absolute;
+                }
+            }
+            .underMain-block {
+                .underMain-text {
+                    margin-left: 120px;
+                }
+                .underMain-number {
+                    color: #425B8C;
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 32px;
+                    line-height: 47px;
+                }
+                .downloaded {
+                    color: #718DC2;
+                    font-family: 'Comfortaa';
+                    font-style: normal;
+                    font-weight: 700;
+                    font-size: 24px;
+                    line-height: 27px;
+                }
+            }
+            .first-under-block {
+                margin-left: 102px;
+                display: flex;
+                width: 400px;
+            }
+            .second-under-block {
+                display: flex;
+             margin-left: 60px;
+            }
+            .group-bg {
+                position: absolute;
+                margin-left: 710px;
+            }
+           }
+        }
+        footer {
+            background-image: url(./img/BG\(6\).png);
+            width: 100%;
+            height: 1085px;
+            margin-top: 245px;
+            position: absolute;
+            .upper-footer {
+                margin-top: 400px;
+                margin-left: 50px;
+                display: flex;
+                .about {
+                    .about-us {
+                        font-family: 'Comfortaa';
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 54px;
+                        color: white;
+                        margin-bottom: 70px;
+                    }
+                    .first-many-information {
+                        width: 418px;
+                        color: white;
+                    }
+                }
+                .featured {
+                    margin-left: 70px;
+                    ul {
+                        .feature {
+                            color: white;
+                            font-family: 'Comfortaa';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 48px;
+                            line-height: 54px;
+                        }
+                        li {          
+                        font-family: 'Comfortaa';
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 20px;
+                        line-height: 150%;
+                        text-decoration-line: underline;
+                        margin-top: 20px;
+                        color: white;
+                        a {
+                            color: white;
+                        }
+                        }
+                    }
+                }
+                .contact {
+                    margin-left: 170px;
+                    ul {
+                        .contact-us {
+                            color: white;
+                            font-family: 'Comfortaa';
+                            font-style: normal;
+                            font-weight: 700;
+                            font-size: 48px;
+                            line-height: 54px;
+                        }
+                        li {
+                            color: white;
+                            margin-top: 20px;
+                        }
+                    }
+                }
+            }
+         .bottom-footer {
+            .hrr {
+                margin-top: 100px;
+                color: #FFFFFF;
+                width: 90%;
+            }
+            p {
+                color: white;
+                text-align: center;
+                margin-top: 165px;
+            }
+         }
+        }
+     }
