@@ -1,1 +1,305 @@
-/*# sourceMappingURL=faq.css.map */
+body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+body .container {
+  margin-top: 200px;
+}
+body .container .block {
+  margin-top: 13px;
+  width: 1200px;
+  height: 87px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border: none;
+}
+body .container .block:focus {
+  transition-duration: 2s;
+  margin-top: 100px;
+  margin-bottom: 190px;
+}
+body .container .block:focus::before {
+  opacity: 1;
+  transition-duration: 2s;
+}
+body .container .block:focus .wrapper {
+  opacity: 1;
+  transition-duration: 2s;
+}
+body .container .block:focus .minus {
+  display: none;
+}
+body .container .block::before {
+  content: "";
+  position: absolute;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  width: 1200px;
+  margin-left: -0.1%;
+  height: 87px;
+  background: linear-gradient(90deg, #B2E3FF 0%, #DFBFFF 100%);
+  opacity: 0.2;
+  transition-duration: 1s;
+}
+body .container .block .instruction {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 33px;
+  color: #46637E;
+  margin-left: -900px;
+  position: absolute;
+}
+body .container .block .wrapper {
+  width: 1100px;
+  height: 200px;
+  opacity: 0;
+  margin-top: 30%;
+}
+body .container .block .wrapper p {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  color: #878787;
+}
+body .container .block svg {
+  width: 40px;
+  height: 40px;
+  position: absolute;
+}
+body .container .block .plus {
+  margin-top: 35px;
+  margin-left: 1100px;
+}
+body .container .block .plus:focus .wrapper {
+  display: none;
+}
+body .container .block .minus {
+  margin-top: 1px;
+  margin-left: 1131px;
+}
+body button {
+  border: none;
+  cursor: point;
+  color: white;
+}
+body svg {
+  fill: none;
+}
+body a {
+  text-decoration: none;
+}
+body header {
+  width: 100%;
+  height: 1065px;
+  background-image: url(../img/BG\(7\).png);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+body header .header-container {
+  margin-left: 292px;
+}
+body header .header-container .first-header-block {
+  padding-top: 63px;
+  display: flex;
+}
+body header .header-container .first-header-block .logo {
+  color: white;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 40px;
+}
+body header .header-container .first-header-block nav .header-nav {
+  margin-left: 42px;
+}
+body header .header-container .first-header-block nav .header-nav .header-list-container {
+  display: flex;
+}
+body header .header-container .first-header-block nav .header-nav .header-list-container .header-list a {
+  color: white;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 22px;
+  margin-left: 70px;
+}
+body header .header-container .first-header-block .header-registration {
+  display: flex;
+  margin-left: 224px;
+}
+body header .header-container .first-header-block .header-registration p {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 17px;
+  line-height: 16px;
+  color: white;
+}
+body header .header-container .first-header-block .sign-header {
+  width: 132px;
+  height: 36px;
+  background-color: white;
+  margin-left: 26px;
+  border-radius: 36px;
+  margin-top: -10px;
+  border: none;
+}
+body header .header-container .first-header-block .sign-header a {
+  color: #BB6DF3;
+}
+body main {
+  margin-top: -780px;
+}
+body main .main-text {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body main .main-text .text-files {
+  color: #3B668D;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
+  font-size: 72px;
+  line-height: 70px;
+  letter-spacing: 0.405em;
+}
+body main .main-text .onl-storage-text {
+  margin-top: 10px;
+  color: #3B668D;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 150%;
+  letter-spacing: 0.905em;
+}
+body main .underMain {
+  margin-top: 200px;
+  display: flex;
+  justify-content: space-between;
+}
+body main .underMain .underMain-block svg {
+  position: absolute;
+}
+body main .underMain .underMain-block .underMain-text {
+  margin-left: 120px;
+}
+body main .underMain .underMain-block .underMain-number {
+  color: #425B8C;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 47px;
+}
+body main .underMain .underMain-block .downloaded {
+  color: #718DC2;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 27px;
+}
+body main .underMain .first-under-block {
+  margin-left: -1%;
+  display: flex;
+  width: 400px;
+}
+body main .underMain .second-under-block {
+  display: flex;
+  margin-left: -5%;
+}
+body main .underMain .groups-bg {
+  position: absolute;
+  margin-left: -12%;
+}
+body main .underMain .group-bg {
+  position: absolute;
+  margin-left: 37%;
+}
+body footer {
+  background-image: url(../img/BG\(6\).png);
+  width: 100%;
+  height: 1085px;
+  margin-top: 1845px;
+  position: absolute;
+}
+body footer .upper-footer {
+  margin-top: 400px;
+  margin-left: 5%;
+  display: flex;
+}
+body footer .upper-footer .about .about-us {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+  color: white;
+  margin-bottom: 70px;
+}
+body footer .upper-footer .about .first-many-information {
+  width: 418px;
+  color: white;
+}
+body footer .upper-footer .featured {
+  margin-left: 10%;
+}
+body footer .upper-footer .featured ul .feature {
+  color: white;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+}
+body footer .upper-footer .featured ul li {
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 150%;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  margin-top: 20px;
+  color: white;
+}
+body footer .upper-footer .featured ul li a {
+  color: white;
+}
+body footer .upper-footer .contact {
+  margin-left: 10%;
+}
+body footer .upper-footer .contact ul .contact-us {
+  color: white;
+  font-family: "Comfortaa";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 54px;
+}
+body footer .upper-footer .contact ul li {
+  color: white;
+  margin-top: 20px;
+}
+body footer .bottom-footer .hrr {
+  margin-top: 100px;
+  color: #FFFFFF;
+  width: 90%;
+}
+body footer .bottom-footer p {
+  color: white;
+  text-align: center;
+  margin-top: 165px;
+}/*# sourceMappingURL=faq.css.map */
