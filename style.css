@@ -1,3 +1,6 @@
+body svg {
+  fill: none;
+}
 body a {
   text-decoration: none;
 }
@@ -222,6 +225,7 @@ body main .middleMain .buy-container img {
 body main .middleMain .buy-container .buy-cont-wrapper {
   display: flex;
   justify-content: space-around;
+  margin-left: -7%;
 }
 body main .middleMain .buy-container .buy-cont-wrapper .cont {
   display: flex;
@@ -266,7 +270,6 @@ body main .middleMain .buy-container .first-buy-container {
   margin-top: 300px;
   width: 350px;
   height: 844px;
-  margin-left: -165px;
 }
 body main .middleMain .buy-container .first-buy-container img {
   margin-top: -0.1px;
@@ -274,9 +277,9 @@ body main .middleMain .buy-container .first-buy-container img {
 }
 body main .middleMain .buy-container .second-buy-container {
   width: 480px;
+  margin-left: 5%;
   height: 1013px;
   margin-top: 200px;
-  margin-left: 65px;
 }
 body main .middleMain .buy-container .second-buy-container .second-cont-button {
   margin-top: 108px;
@@ -319,8 +322,8 @@ body main .middleMain .buy-container .second-buy-container img {
   position: absolute;
 }
 body main .middleMain .buy-container .third-buy-container {
-  margin-left: 60px;
   width: 350px;
+  margin-left: 5%;
   height: 864px;
   margin-top: 300px;
 }
@@ -380,7 +383,7 @@ body footer {
 }
 body footer .upper-footer {
   margin-top: 400px;
-  margin-left: 50px;
+  margin-left: 5%;
   display: flex;
 }
 body footer .upper-footer .about .about-us {
@@ -397,7 +400,7 @@ body footer .upper-footer .about .first-many-information {
   color: white;
 }
 body footer .upper-footer .featured {
-  margin-left: 70px;
+  margin-left: 10%;
 }
 body footer .upper-footer .featured ul .feature {
   color: white;
@@ -422,7 +425,7 @@ body footer .upper-footer .featured ul li a {
   color: white;
 }
 body footer .upper-footer .contact {
-  margin-left: 170px;
+  margin-left: 10%;
 }
 body footer .upper-footer .contact ul .contact-us {
   color: white;

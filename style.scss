@@ -2,6 +2,9 @@ $comfortaa:'Comfortaa', cursive;
 $montserrat: 'Montserrat', sans-serif;
 $roboto: 'Roboto', sans-serif;
 body {
+    svg {
+        fill: none;
+    }
     a {
         text-decoration: none;
     }
@@ -242,6 +245,7 @@ body {
             .buy-cont-wrapper {
                 display: flex;
                 justify-content: space-around;
+                margin-left: -7%;
                 .cont {
                     display: flex;
                     flex-direction: column;
@@ -286,7 +290,6 @@ body {
                 margin-top: 300px;
                 width: 350px;
                 height: 844px;
-                margin-left: -165px;
                 img {
                     margin-top: -0.1px;
                     margin-left: -45px;
@@ -294,9 +297,9 @@ body {
             }
             .second-buy-container {
                 width: 480px;
+                margin-left: 5%;
                 height: 1013px;
                 margin-top: 200px;
-                margin-left: 65px;
                 .second-cont-button {
                     margin-top: 108px;
                     width: 308px;
@@ -339,8 +342,8 @@ body {
                 }
             }
             .third-buy-container {
-                margin-left: 60px;
                 width: 350px;
+                margin-left: 5%;
                 height: 864px;
                 margin-top: 300px;
                 .dayt {
@@ -406,7 +409,7 @@ body {
             position: absolute;
             .upper-footer {
                 margin-top: 400px;
-                margin-left: 50px;
+                margin-left: 5%;
                 display: flex;
                 .about {
                     .about-us {
@@ -424,7 +427,7 @@ body {
                     }
                 }
                 .featured {
-                    margin-left: 70px;
+                  margin-left: 10%;
                     ul {
                         .feature {
                             color: white;
@@ -450,7 +453,7 @@ body {
                     }
                 }
                 .contact {
-                    margin-left: 170px;
+                    margin-left: 10%;
                     ul {
                         .contact-us {
                             color: white;
