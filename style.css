@@ -4,21 +4,21 @@ body svg {
 body a {
   text-decoration: none;
 }
-body header {
+body .main-header {
   width: 100%;
   height: 1065px;
   background-image: url(./img/BG.png);
   background-repeat: no-repeat;
   background-size: 100%;
 }
-body header .header-container {
+body .main-header .header-container {
   margin-left: 292px;
 }
-body header .header-container .first-header-block {
+body .main-header .header-container .first-header-block {
   padding-top: 63px;
   display: flex;
 }
-body header .header-container .first-header-block .logo {
+body .main-header .header-container .first-header-block .logo {
   color: white;
   font-family: "Comfortaa";
   font-style: normal;
@@ -26,13 +26,13 @@ body header .header-container .first-header-block .logo {
   font-size: 36px;
   line-height: 40px;
 }
-body header .header-container .first-header-block nav .header-nav {
+body .main-header .header-container .first-header-block nav .header-nav {
   margin-left: 42px;
 }
-body header .header-container .first-header-block nav .header-nav .header-list-container {
+body .main-header .header-container .first-header-block nav .header-nav .header-list-container {
   display: flex;
 }
-body header .header-container .first-header-block nav .header-nav .header-list-container .header-list a {
+body .main-header .header-container .first-header-block nav .header-nav .header-list-container .header-list a {
   color: white;
   font-family: "Comfortaa";
   font-style: normal;
@@ -41,11 +41,11 @@ body header .header-container .first-header-block nav .header-nav .header-list-c
   line-height: 22px;
   margin-left: 70px;
 }
-body header .header-container .first-header-block .header-registration {
+body .main-header .header-container .first-header-block .header-registration {
   display: flex;
   margin-left: 224px;
 }
-body header .header-container .first-header-block .header-registration p {
+body .main-header .header-container .first-header-block .header-registration p {
   font-family: "Poppins";
   font-style: normal;
   font-weight: 500;
@@ -53,7 +53,7 @@ body header .header-container .first-header-block .header-registration p {
   line-height: 16px;
   color: white;
 }
-body header .header-container .first-header-block .sign-header {
+body .main-header .header-container .first-header-block .sign-header {
   width: 132px;
   height: 36px;
   background-color: white;
@@ -62,10 +62,10 @@ body header .header-container .first-header-block .sign-header {
   margin-top: -10px;
   border: none;
 }
-body header .header-container .first-header-block .sign-header a {
+body .main-header .header-container .first-header-block .sign-header a {
   color: #BB6DF3;
 }
-body header .header-container .second-header-container .header-text-container {
+body .main-header .header-container .second-header-container .header-text-container {
   color: #3B668D;
   margin-top: 189px;
   font-family: "Roboto";
@@ -75,7 +75,7 @@ body header .header-container .second-header-container .header-text-container {
   line-height: 70px;
   margin-left: -390px;
 }
-body header .header-container .second-header-container .online-storage-text {
+body .main-header .header-container .second-header-container .online-storage-text {
   color: #3B668D;
   font-family: "Montserrat";
   font-style: normal;
@@ -85,15 +85,15 @@ body header .header-container .second-header-container .online-storage-text {
   margin-left: 80px;
   margin-top: -30px;
 }
-body header .header-container .second-header-container .online-storage-text .header-hr {
+body .main-header .header-container .second-header-container .online-storage-text .header-hr {
   width: 506px;
   margin-left: -105px;
 }
-body header .header-container .second-header-container .online-storage-text .header-store-text {
+body .main-header .header-container .second-header-container .online-storage-text .header-store-text {
   margin-top: 25px;
   margin-left: -90px;
 }
-body header .header-container .second-header-container .online-storage-text .upload-pre-text {
+body .main-header .header-container .second-header-container .online-storage-text .upload-pre-text {
   margin-top: 20px;
   font-family: "Montserrat";
   font-style: normal;
@@ -103,7 +103,7 @@ body header .header-container .second-header-container .online-storage-text .upl
   margin-left: -180px;
   margin-top: 15px;
 }
-body header .header-container .second-header-container .online-storage-text .header-pretty-button {
+body .main-header .header-container .second-header-container .online-storage-text .header-pretty-button {
   background: linear-gradient(135.76deg, #9584FF 20.74%, #B556FF 76.27%);
   width: 304px;
   height: 75px;
@@ -116,11 +116,11 @@ body header .header-container .second-header-container .online-storage-text .hea
   align-items: center;
   overflow: hidden;
 }
-body header .header-container .second-header-container .online-storage-text .header-pretty-button a {
+body .main-header .header-container .second-header-container .online-storage-text .header-pretty-button a {
   position: absolute;
   color: white;
 }
-body header .header-container .second-header-container .online-storage-text .first-header-round-for-button {
+body .main-header .header-container .second-header-container .online-storage-text .first-header-round-for-button {
   width: 106px;
   height: 106px;
   background: rgba(0, 0, 0, 0.08);
@@ -128,7 +128,7 @@ body header .header-container .second-header-container .online-storage-text .fir
   margin-top: 85px;
   margin-left: 210px;
 }
-body header .header-container .second-header-container .online-storage-text .second-header-round-for-button {
+body .main-header .header-container .second-header-container .online-storage-text .second-header-round-for-button {
   border-radius: 85px;
   background: rgba(255, 255, 255, 0.2);
   width: 106px;
@@ -138,7 +138,7 @@ body header .header-container .second-header-container .online-storage-text .sec
   margin-top: -60px;
   position: absolute;
 }
-body header .header-container .second-header-container .online-storage-text .second-header-round-for-button .third-header-round-for-button {
+body .main-header .header-container .second-header-container .online-storage-text .second-header-round-for-button .third-header-round-for-button {
   width: 56.37px;
   height: 56px;
   left: 21.13px;
@@ -416,8 +416,7 @@ body footer .upper-footer .featured ul li {
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   margin-top: 20px;
   color: white;
 }

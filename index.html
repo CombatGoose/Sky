@@ -3,7 +3,8 @@
 <head>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
-    <link rel="stylesheet" href="./style.scss">
+    <link rel="stylesheet" href="./media.css">
+    <link rel="stylesheet" href="./media.scss">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Comfortaa&family=Montserrat&family=Roboto&display=swap" rel="stylesheet">  
@@ -13,7 +14,95 @@
     <title>Sky</title>
 </head>
 <body>
-    <header>
+    <div class="mobile-version">
+        <header class="mobile-header">
+            <div class="upper-mobile-header">
+            <p class="mobile-logo"></p>
+            <div class="mobile-hr-container">
+                <hr>
+                <hr>
+                <hr>
+            </div>
+            </div>
+        </header>
+        <main class="mobile-main">
+            <div class="mobile-text-main">
+                <p class="mobile-personal">Personal and Business</p>
+                <p class="mobile-online-text">Online storage</p>
+                <p class="mobile-store-text">STORE AND MANAGE ALL YOUR Files!</p>
+                <p class="mobile-upload-text">Upload multiple files at once and keep them forever on this site. If you're using FireFox or Chrome, you can simply drag & drop your files to begin uploading</p>
+            </div>
+            <div class="mobile-pretty-button">
+                <a href="#">Try SkyBox Now</a>
+                <div class="first-mobile-round-for-button"></div>
+                <div class="second-mobile-round-for-button">
+                    <div class="third-mobile-round-for-button"></div>
+                </div>
+            </div>
+            <div class="mobile-information">
+                <ul>
+                    <li class="mobile-main-li">
+                        <p class="list-main-text">SAFE AND SECURE</p>
+                        <p class="list-text">Safely store and backup all your essential files. From family photos & videos to important documents, you can rely on us to store all your media securely and forever.</p>
+                    </li>
+                    <li class="mobile-lists">
+                        <p class="list-main-text">Access from anywhere</p>
+                        <p class="list-text">Easily access your files from anywhere with desktop apps for Windows and Mac, and mobile apps for iPhone, iPad, Android, and the web.</p>
+                    </li>
+                    <li class="mobile-lists">
+                        <p class="list-main-text">STORE AND MANAGE ALL <br> YOUR FILES!</p>
+                        <p class="list-text">Upload multiple files at once and keep them forever on this site. If you're using FireFox or Chrome, you can simply drag & drop your files to begin uploading.</p>
+                    </li>
+                    <li class="mobile-lists">
+                        <p class="list-main-text">Any point of the globe</p>
+                        <p class="list-text">High speed from any location with internet access! Gigabit networking and high-performance server!</p>
+                    </li>
+                </ul>
+            </div>
+           <div class="mobile-premium-information">
+            <p class="mobile-become">Become a PREMIUM MEMBER</p>
+        <p class="mobile-premium-bs mobile-gray-text">Premium Business</p>  
+    <p class="mobile-tb mobile-gray-text"> 1 TB freer space and 4 TB monthly transfer</p>    
+    </div>
+    <div class="mobile-product-card">
+        <img src="./img/mobile-bg.png" alt="bg">
+        <div class="mobile-p-container">
+        <p class="mobile-popular">Most popular</p>
+        <p class="mobile-days">90 days</p>
+        <p class="mobile-sum">$46.99</p>
+        <hr>
+        <ul>
+            <li><p>1 Tb Free space</p>
+                <svg class="mobile-check">
+                    <use xlink:href="./sprite.svg#check"></use>
+                </svg>
+            </li>
+            <li class="mobile-another-lists">
+                <p>4 Tb Monthly space </p>
+                <svg class="mobile-check">
+                    <use xlink:href="./sprite.svg#check"></use>
+                </svg>
+            </li>
+            <li class="mobile-another-lists mobile-list-plus">
+                <p>100 Mbit Speed</p>
+                <svg class="mobile-check">
+                    <use xlink:href="./sprite.svg#check"></use>
+                </svg>
+            </li>
+            <li class="mobile-another-lists mobile-list-plus">
+                <p>3000 sessions</p>
+                <svg class="mobile-check">
+                    <use xlink:href="./sprite.svg#check"></use>
+                </svg>
+            </li>
+        </ul>
+        <button type="button" class="mobile-sign-button">Sign Up</button>
+    <p class="mobile-guarantee">14-day money back guarantee</p>    
+    </div>
+    </div>
+        </main>
+    </div>
+    <header class="main-header">
         <div class="header-container">
             <div class="first-header-block">
                 <p class="logo">SKYBOX</p>
@@ -57,7 +146,7 @@
             </div>
         </div>
     </header>
-    <main>
+    <main class="main">
         <div class="main-up-block">
             <div class="main-up-block-img">
                 <img src="./img/Group 87(1).png" alt="laptop">

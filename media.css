@@ -1,0 +1,334 @@
+@media (max-width: 415px) {
+  svg {
+    fill: none;
+  }
+  a {
+    text-decoration: none;
+  }
+  .mobile-version {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+  }
+  .mobile-version .mobile-header {
+    background-image: url(./img/Group\ 89.png);
+    width: 100%;
+    height: 1200px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .mobile-version .mobile-header .upper-mobile-header {
+    display: flex;
+    justify-content: space-around;
+  }
+  .mobile-version .mobile-header .upper-mobile-header .mobile-hr-container {
+    position: absolute;
+    width: 51px;
+    height: 5px;
+    margin-top: 20px;
+    margin-left: 75%;
+  }
+  .mobile-version .mobile-header .upper-mobile-header .mobile-hr-container hr {
+    width: 100%;
+    height: 100%;
+    border-radius: 22px;
+    color: white;
+    background-color: white;
+  }
+  .mobile-version .mobile-header .upper-mobile-header .mobile-logo {
+    font-family: "Comfortaa", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+  }
+  .mobile-version .mobile-main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: -120%;
+    width: 100%;
+  }
+  .mobile-version .mobile-main .mobile-text-main .mobile-personal {
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 72px;
+    line-height: 70px;
+    width: 371px;
+    height: 210px;
+    color: #3B668D;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .mobile-version .mobile-main .mobile-text-main .mobile-online-text {
+    position: absolute;
+    margin-left: -25%;
+    color: #3B668D;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 150%;
+    letter-spacing: 0.35em;
+    text-transform: uppercase;
+    width: 579px;
+    height: 36px;
+    text-align: center;
+  }
+  .mobile-version .mobile-main .mobile-text-main .mobile-store-text {
+    margin-top: 12%;
+    position: absolute;
+    width: 357px;
+    height: 82px;
+    color: #3B668D;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 26px;
+    line-height: 156%;
+    text-transform: uppercase;
+    margin-left: 5%;
+  }
+  .mobile-version .mobile-main .mobile-text-main .mobile-upload-text {
+    margin-top: 35%;
+    color: #2B4964;
+    position: absolute;
+    width: 353px;
+    height: 140px;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 156%;
+    letter-spacing: 0.075em;
+  }
+  .mobile-version .mobile-main .mobile-pretty-button {
+    background: linear-gradient(135.76deg, #9584FF 20.74%, #B556FF 76.27%);
+    width: 304px;
+    height: 75px;
+    border-radius: 45px;
+    margin-top: 30px;
+    border: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    overflow: hidden;
+    margin-top: 340px;
+  }
+  .mobile-version .mobile-main .mobile-pretty-button a {
+    font-family: "Comfortaa", cursive;
+    position: absolute;
+    color: white;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .mobile-version .mobile-main .first-mobile-round-for-button {
+    width: 106px;
+    height: 106px;
+    background: rgba(0, 0, 0, 0.08);
+    border-radius: 50px;
+    margin-top: 85px;
+    margin-left: 210px;
+  }
+  .mobile-version .mobile-main .second-mobile-round-for-button {
+    border-radius: 85px;
+    background: rgba(255, 255, 255, 0.2);
+    width: 106px;
+    height: 106px;
+    border-radius: 50px;
+    margin-left: -240px;
+    margin-top: -60px;
+    position: absolute;
+  }
+  .mobile-version .mobile-main .second-mobile-round-for-button .third-mobile-round-for-button {
+    width: 56.37px;
+    height: 56px;
+    left: 21.13px;
+    top: -30px;
+    background: rgba(255, 255, 255, 0.32);
+    border-radius: 85px;
+    margin-left: 30px;
+    margin-top: 20px;
+  }
+  .mobile-version .mobile-main .mobile-information {
+    background-image: url(./img/Features\ image.png);
+    background-size: 100%;
+    width: 140%;
+    height: 2000px;
+    background-repeat: no-repeat;
+    margin-bottom: 300px;
+    display: flex;
+    justify-content: center;
+  }
+  .mobile-version .mobile-main ul {
+    margin-left: 5%;
+  }
+  .mobile-version .mobile-main ul .mobile-main-li {
+    margin-top: 50%;
+  }
+  .mobile-version .mobile-main ul .mobile-lists {
+    margin-top: 75px;
+  }
+  .mobile-version .mobile-main ul li .list-main-text {
+    text-transform: uppercase;
+    font-family: "Roboto", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 60px;
+  }
+  .mobile-version .mobile-main ul li .list-text {
+    width: 361px;
+    height: 126px;
+    color: white;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+  }
+  .mobile-version .mobile-main .mobile-premium-information {
+    margin-top: -140%;
+    width: 100%;
+    height: 1000px;
+  }
+  .mobile-version .mobile-main .mobile-premium-information .mobile-become {
+    color: #3B668D;
+    font-family: "Roboto", sans-serif;
+    font-weight: 300;
+    font-size: 72px;
+    line-height: 84px;
+    text-align: center;
+    text-transform: uppercase;
+  }
+  .mobile-version .mobile-main .mobile-premium-information .mobile-gray-text {
+    color: #79788F;
+    font-family: "Montserrat", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 37px;
+    text-align: center;
+    margin-top: 30px;
+  }
+  .mobile-version .mobile-main .mobile-product-card {
+    margin-top: -100%;
+    width: 100%;
+    height: 704px;
+    filter: drop-shadow(0px 13px 27px rgba(0, 0, 0, 0.1));
+  }
+  .mobile-version .mobile-main .mobile-product-card img {
+    position: absolute;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container {
+    margin-top: 50px;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container p {
+    text-align: center;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container .mobile-popular {
+    color: #40BF3D;
+    font-family: "Comfortaa", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container .mobile-days {
+    color: #3B668D;
+    font-family: "Comfortaa", cursive;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 54px;
+    margin-top: 14px;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container .mobile-sum {
+    margin-top: 28px;
+    color: #8572FF;
+    font-family: "Comfortaa", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 71px;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container hr {
+    color: #D3D3D3;
+    width: 186px;
+    margin-top: 51px;
+    border: 1px solid #D3D3D3;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container ul {
+    margin-top: 50px;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container ul .mobile-another-lists {
+    margin-top: 30px;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container ul .mobile-list-plus {
+    margin-top: 40px;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container ul li {
+    color: #567796;
+    display: flex;
+    font-family: "Comfortaa", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 43%;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container ul li .mobile-check {
+    width: 24px;
+    height: 24px;
+    margin-left: 300px;
+    position: absolute;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container .mobile-sign-button {
+    margin-left: 27.5%;
+    margin-top: 20%;
+    background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+    border-radius: 62px;
+    border: none;
+    width: 45%;
+    height: 55.54px;
+    color: white;
+    font-family: "Comfortaa", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 27px;
+  }
+  .mobile-version .mobile-main .mobile-product-card .mobile-p-container .mobile-guarantee {
+    margin-top: 60px;
+    color: #567796;
+    font-family: "Comfortaa", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 100%;
+  }
+  .main-header {
+    display: none;
+  }
+  .main {
+    display: none;
+  }
+  footer {
+    display: none;
+  }
+}
+@media (min-width: 416px) {
+  .mobile-version {
+    display: none;
+  }
+}/*# sourceMappingURL=media.css.map */

@@ -1,0 +1,341 @@
+$comfortaa:'Comfortaa', cursive;
+$montserrat: 'Montserrat', sans-serif;
+$roboto: 'Roboto', sans-serif;
+@media (max-width: 415px) {
+    svg {
+        fill: none;
+    }
+    a {
+        text-decoration: none;
+    }
+    .mobile-version {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        .mobile-header {
+        background-image: url(./img/Group\ 89.png);
+        width: 100%;
+        height: 1200px;
+        background-repeat: no-repeat;
+        background-size: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        .upper-mobile-header {
+            display: flex;
+            justify-content: space-around;
+            .mobile-hr-container {
+                position: absolute;
+                width: 51px;
+                height: 5px;
+                margin-top: 20px;
+                margin-left: 75%;
+                hr {
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 22px;
+                    color: white;
+                    background-color: white;
+                }
+            }
+            .mobile-logo {
+                font-family: $comfortaa;
+                font-style: normal;
+                font-weight: 700;
+                font-size: 36px;
+                line-height: 40px;
+                text-transform: uppercase;
+                color: #FFFFFF;
+            }
+        }
+        }
+        .mobile-main {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            margin-top: -120%;
+            width: 100%;
+            .mobile-text-main {
+                .mobile-personal {     
+                font-family: $roboto;
+                font-style: normal;
+                font-weight: 900;
+                font-size: 72px;
+                line-height: 70px;
+                width: 371px;
+                height: 210px;
+                color: #3B668D;
+                text-align: center;
+                text-transform: uppercase;
+                }
+                .mobile-online-text {
+                    position: absolute;
+                    margin-left: -25%;
+                    color: #3B668D;
+                    font-family: $montserrat;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 24px;
+                    line-height: 150%;
+                    letter-spacing: 0.35em;
+                    text-transform: uppercase;
+                    width: 579px;
+                    height: 36px;
+                    text-align: center;
+                }
+                .mobile-store-text {
+                    margin-top: 12%;
+                    position: absolute;
+                    width: 357px;
+                    height: 82px;
+                    color: #3B668D;       
+                    font-family: $roboto;
+                    font-style: normal;
+                    font-weight: 500;
+                    font-size: 26px;
+                    line-height: 156%;
+                    text-transform: uppercase;
+                    margin-left: 5%;
+                }
+                .mobile-upload-text {
+                    margin-top: 35%;
+                    color: #2B4964;
+                    position: absolute;
+                    width: 353px;
+                    height: 140px;
+                    font-family: $montserrat;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 18px;
+                    line-height: 156%;
+                    letter-spacing: 0.075em;
+                }
+            }
+              .mobile-pretty-button {
+                        background: linear-gradient(135.76deg, #9584FF 20.74%, #B556FF 76.27%);
+                        width: 304px;
+                        height: 75px;
+                        border-radius: 45px;
+                        margin-top: 30px;
+                        border: none;
+                        display: flex;
+                        justify-content: center;
+                        align-items: center;
+                        overflow: hidden;
+                        margin-top: 340px;
+                        a {
+                            font-family: $comfortaa;
+                            position: absolute;
+                            color: white;
+                            font-style: normal;
+                            font-weight: 550;
+                            font-size: 24px;
+                            line-height: 27px;
+                        }
+                    }
+                    .first-mobile-round-for-button {
+                       width: 106px;
+                       height: 106px;       
+                       background: rgba(0, 0, 0, 0.08);
+                       border-radius: 50px;
+                       margin-top: 85px;
+                       margin-left: 210px;
+                    }
+                    .second-mobile-round-for-button {    
+                        border-radius: 85px;
+                        background: rgba(255, 255, 255, 0.2);
+                        width: 106px;
+                        height: 106px;       
+                        border-radius: 50px;
+                       margin-left: -240px;
+                        margin-top: -60px;
+                        position: absolute;
+                        .third-mobile-round-for-button {
+                            width: 56.37px;
+                            height: 56px;
+                            left: 21.13px;
+                            top: -30px;
+                            background: rgba(255, 255, 255, 0.32);
+                            border-radius: 85px;
+                            margin-left: 30px;
+                            margin-top: 20px;
+                        }
+                     }
+                     .mobile-information {
+                        background-image: url(./img/Features\ image.png);
+                        background-size: 100%;
+                        width: 140%;
+                        height: 2000px;
+                        background-repeat: no-repeat;
+                        margin-bottom: 300px;
+                        display: flex;
+                        justify-content: center;
+                    }
+                    ul {  
+                        margin-left: 5%;
+                        .mobile-main-li {
+                            margin-top: 50%;
+                        }
+                        .mobile-lists {
+                            margin-top: 75px;
+                        }
+                        li {
+                            .list-main-text {
+                                text-transform: uppercase;
+                                font-family: $roboto;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 28px;
+                                line-height: 60px;
+                            }
+                            .list-text {
+                                width: 361px;
+                                height: 126px;
+                                color: white; 
+                                font-family: $montserrat;
+                                font-style: normal;
+                                font-weight: 400;
+                                font-size: 18px;
+                                line-height: 150%;
+                            }
+                        }
+                    }
+                    .mobile-premium-information {
+                        margin-top: -140%;
+                        width: 100%;
+                        height: 1000px;
+                        .mobile-become {
+                            color: #3B668D;
+                            font-family: $roboto;
+                            font-weight: 300;
+                            font-size: 72px;
+                            line-height: 84px;
+                            text-align: center;
+                            text-transform: uppercase;
+                        }
+                        .mobile-gray-text {
+                            color: #79788F;                         
+                            font-family: $montserrat;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 30px;
+                            line-height: 37px;
+                            text-align: center;
+                            margin-top: 30px;
+                        }
+                    }
+                    .mobile-product-card {
+                        margin-top: -100%;
+                        width: 100%;
+                        height: 704px;  
+                        filter: drop-shadow(0px 13px 27px rgba(0, 0, 0, 0.1));
+                   img {
+                    position: absolute;
+                   }
+                  .mobile-p-container {
+                    margin-top: 50px;
+                    p {
+                        text-align: center;
+                    }
+                    .mobile-popular {
+                        color: #40BF3D;
+                        font-family: $comfortaa;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 100%;
+                    }
+                    .mobile-days {
+                        color: #3B668D;
+                        font-family: $comfortaa;
+                        font-style: normal;
+                        font-weight: 700;
+                        font-size: 48px;
+                        line-height: 54px;
+                        margin-top: 14px;
+                    }
+                    .mobile-sum {
+                        margin-top: 28px;
+                        color: #8572FF;
+                        font-family: $comfortaa;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 64px;
+                        line-height: 71px;
+                    }
+                    hr {
+                        color: #D3D3D3;
+                        width: 186px;
+                        margin-top: 51px;      
+                        border: 1px solid #D3D3D3;
+                        transform: matrix(1, 0, 0, 1, 0, 0);
+                    }
+                    ul {
+                        margin-top: 50px;
+                        .mobile-another-lists {
+                            margin-top: 30px;
+                        }
+                        .mobile-list-plus {
+                            margin-top: 40px;
+                        }
+                        li {
+                            color: #567796;
+                            display: flex;
+                            font-family: $comfortaa;
+                            font-style: normal;
+                            font-weight: 400;
+                            font-size: 20px;
+                            line-height: 43%;
+                            .mobile-check {
+                                width: 24px;
+                                height: 24px;
+                                margin-left: 300px;
+                                position: absolute;
+                            }
+                        }
+                    }
+                    .mobile-sign-button {
+                        margin-left: 27.5%;
+                        margin-top: 20%;
+                        background: linear-gradient(90deg, #43A1D6 0%, #907EFF 100%);
+                        border-radius: 62px;
+                        border: none;
+                        width: 45%;
+                        height: 55.54px;
+                        color: white;
+                        font-family: $comfortaa;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 24px;
+                        line-height: 27px;
+                    }
+                    .mobile-guarantee {
+                        margin-top: 60px;
+                        color: #567796;
+                        font-family: $comfortaa;
+                        font-style: normal;
+                        font-weight: 400;
+                        font-size: 18px;
+                        line-height: 100%;
+                    }
+                  }
+                    }
+                   }
+    }
+    .main-header {
+        display: none;
+    }
+    .main {
+        display: none;
+    }
+    footer {
+        display: none;
+    }
+}
+@media (min-width: 416px) {
+    .mobile-version {
+        display: none;
+    }
+}

@@ -47,7 +47,7 @@ body {
                 transition-duration: 1s;
             }
             .instruction {
-                font-family: 'Comfortaa';
+                font-family: $comfortaa;
                 font-style: normal;
                 font-weight: 700;
                 font-size: 30px;
@@ -62,7 +62,7 @@ body {
              opacity: 0;
                 margin-top: 30%;
                 p {
-                    font-family: 'Comfortaa';
+                    font-family: $comfortaa;
                     font-style: normal;
                     font-weight: 400;
                     font-size: 20px;
@@ -78,11 +78,6 @@ body {
             .plus {
                 margin-top: 35px;
                 margin-left: 1100px;
-                &:focus {
-                    .wrapper {
-                        display: none;
-                    }
-                }
             }
             .minus {
                 margin-top: 1px;
@@ -114,7 +109,7 @@ body {
                 display: flex;
                 .logo {
                     color: white;
-                    font-family: 'Comfortaa';
+                    font-family: $comfortaa;
                     font-style: normal;
                     font-weight: 700;
                     font-size: 36px;
@@ -128,7 +123,7 @@ body {
                             .header-list {
                               a {
                                 color: white;
-                                font-family: 'Comfortaa';
+                                font-family: $comfortaa;
                                 font-style: normal;
                                 font-weight: 500;
                                 font-size: 18px;
@@ -143,7 +138,7 @@ body {
                     display: flex;
                     margin-left: 224px;
                     p {
-                        font-family: 'Poppins';
+                        font-family: $comfortaa;
                         font-style: normal;
                         font-weight: 500;
                         font-size: 17px;
@@ -174,7 +169,7 @@ body {
                 flex-direction: column;
                 .text-files {
                     color: #3B668D;
-                    font-family: 'Roboto';
+                    font-family: $roboto;
                     font-style: normal;
                     font-weight: 900;
                     font-size: 72px;
@@ -184,7 +179,7 @@ body {
                .onl-storage-text {
                 margin-top: 10px;
                 color: #3B668D;
-                font-family: 'Montserrat';
+                font-family: $montserrat;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 24px;
@@ -207,7 +202,7 @@ body {
                     }
                     .underMain-number {
                         color: #425B8C;
-                        font-family: 'Comfortaa';
+                        font-family: $comfortaa;
                         font-style: normal;
                         font-weight: 700;
                         font-size: 32px;
@@ -215,7 +210,7 @@ body {
                     }
                     .downloaded {
                         color: #718DC2;
-                        font-family: 'Comfortaa';
+                        font-family: $comfortaa;
                         font-style: normal;
                         font-weight: 700;
                         font-size: 24px;
@@ -253,7 +248,7 @@ body {
                 display: flex;
                 .about {
                     .about-us {
-                        font-family: 'Comfortaa';
+                        font-family: $comfortaa;
                         font-style: normal;
                         font-weight: 700;
                         font-size: 48px;
@@ -271,14 +266,14 @@ body {
                     ul {
                         .feature {
                             color: white;
-                            font-family: 'Comfortaa';
+                            font-family: $comfortaa;
                             font-style: normal;
                             font-weight: 700;
                             font-size: 48px;
                             line-height: 54px;
                         }
                         li {          
-                        font-family: 'Comfortaa';
+                        font-family: $comfortaa;
                         font-style: normal;
                         font-weight: 400;
                         font-size: 20px;
@@ -297,7 +292,7 @@ body {
                     ul {
                         .contact-us {
                             color: white;
-                            font-family: 'Comfortaa';
+                            font-family: $comfortaa;
                             font-style: normal;
                             font-weight: 700;
                             font-size: 48px;

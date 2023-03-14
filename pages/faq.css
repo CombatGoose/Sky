@@ -46,7 +46,7 @@ body .container .block::before {
   transition-duration: 1s;
 }
 body .container .block .instruction {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 30px;
@@ -62,7 +62,7 @@ body .container .block .wrapper {
   margin-top: 30%;
 }
 body .container .block .wrapper p {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
@@ -77,9 +77,6 @@ body .container .block svg {
 body .container .block .plus {
   margin-top: 35px;
   margin-left: 1100px;
-}
-body .container .block .plus:focus .wrapper {
-  display: none;
 }
 body .container .block .minus {
   margin-top: 1px;
@@ -112,7 +109,7 @@ body header .header-container .first-header-block {
 }
 body header .header-container .first-header-block .logo {
   color: white;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -126,7 +123,7 @@ body header .header-container .first-header-block nav .header-nav .header-list-c
 }
 body header .header-container .first-header-block nav .header-nav .header-list-container .header-list a {
   color: white;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -138,7 +135,7 @@ body header .header-container .first-header-block .header-registration {
   margin-left: 224px;
 }
 body header .header-container .first-header-block .header-registration p {
-  font-family: "Poppins";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -167,7 +164,7 @@ body main .main-text {
 }
 body main .main-text .text-files {
   color: #3B668D;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -177,7 +174,7 @@ body main .main-text .text-files {
 body main .main-text .onl-storage-text {
   margin-top: 10px;
   color: #3B668D;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -197,7 +194,7 @@ body main .underMain .underMain-block .underMain-text {
 }
 body main .underMain .underMain-block .underMain-number {
   color: #425B8C;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 32px;
@@ -205,7 +202,7 @@ body main .underMain .underMain-block .underMain-number {
 }
 body main .underMain .underMain-block .downloaded {
   color: #718DC2;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 24px;
@@ -241,7 +238,7 @@ body footer .upper-footer {
   display: flex;
 }
 body footer .upper-footer .about .about-us {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -258,20 +255,19 @@ body footer .upper-footer .featured {
 }
 body footer .upper-footer .featured ul .feature {
   color: white;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 54px;
 }
 body footer .upper-footer .featured ul li {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   margin-top: 20px;
   color: white;
 }
@@ -283,7 +279,7 @@ body footer .upper-footer .contact {
 }
 body footer .upper-footer .contact ul .contact-us {
   color: white;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;

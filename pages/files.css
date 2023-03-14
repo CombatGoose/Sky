@@ -25,7 +25,7 @@ body header .header-container .first-header-block {
 }
 body header .header-container .first-header-block .logo {
   color: white;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 36px;
@@ -39,7 +39,7 @@ body header .header-container .first-header-block nav .header-nav .header-list-c
 }
 body header .header-container .first-header-block nav .header-nav .header-list-container .header-list a {
   color: white;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 500;
   font-size: 18px;
@@ -51,7 +51,7 @@ body header .header-container .first-header-block .header-registration {
   margin-left: 224px;
 }
 body header .header-container .first-header-block .header-registration p {
-  font-family: "Poppins";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 500;
   font-size: 17px;
@@ -71,6 +71,10 @@ body header .header-container .first-header-block .sign-header a {
   color: #BB6DF3;
 }
 body main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-top: -780px;
 }
 body main .main-text {
@@ -80,7 +84,7 @@ body main .main-text {
 }
 body main .main-text .text-files {
   color: #3B668D;
-  font-family: "Roboto";
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 900;
   font-size: 72px;
@@ -90,7 +94,7 @@ body main .main-text .text-files {
 body main .main-text .onl-storage-text {
   margin-top: 10px;
   color: #3B668D;
-  font-family: "Montserrat";
+  font-family: "Montserrat", sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 24px;
@@ -109,6 +113,7 @@ body main .central-main .table-wrapper {
   margin-top: 60px;
 }
 body main .central-main .table-wrapper table {
+  filter: drop-shadow(0px 3px 6px rgba(75, 81, 91, 0.15)) drop-shadow(0px 1px 3px rgba(0, 0, 0, 0.15));
   position: absolute;
   width: 1214px;
   height: 809px;
@@ -119,7 +124,7 @@ body main .central-main .table-wrapper table td {
 body main .central-main .table-wrapper table td .table-text {
   width: 346px;
   height: 30px;
-  font-family: "Inter";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -129,7 +134,7 @@ body main .central-main .table-wrapper table td .table-text {
   color: #437FEC;
 }
 body main .central-main .table-wrapper table td .disp-text {
-  font-family: "Inter";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 12px;
@@ -155,6 +160,7 @@ body main .central-main .table-wrapper table td .table-number {
 }
 body main .central-main .table-wrapper table td .table-number p {
   color: #464d5a;
+  margin-top: 10%;
 }
 body main .central-main .table-wrapper table td .table-number svg {
   position: absolute;
@@ -170,7 +176,7 @@ body main .central-main .table-wrapper table td .table-folder-block {
   justify-content: center;
   align-items: center;
   color: white;
-  font-family: "Inter";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
@@ -221,7 +227,7 @@ body main .central-main .table-wrapper table .third-td input {
 body main .central-main .table-wrapper table .third-td .input-text {
   margin-left: 30px;
   color: #606F89;
-  font-family: "Inter";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 600;
   font-size: 12px;
@@ -290,6 +296,12 @@ body main .central-main .table-wrapper table .last-td .public {
   background: #0A65FF;
   margin-left: 880px;
   position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+body main .central-main .table-wrapper table .last-td .public p {
+  text-align: center;
 }
 body main .central-main .table-wrapper table .last-td .eye {
   margin-left: 120px;
@@ -335,7 +347,7 @@ body footer .upper-footer {
   display: flex;
 }
 body footer .upper-footer .about .about-us {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
@@ -352,20 +364,19 @@ body footer .upper-footer .featured {
 }
 body footer .upper-footer .featured ul .feature {
   color: white;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
   line-height: 54px;
 }
 body footer .upper-footer .featured ul li {
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 400;
   font-size: 20px;
   line-height: 150%;
-  -webkit-text-decoration-line: underline;
-          text-decoration-line: underline;
+  text-decoration-line: underline;
   margin-top: 20px;
   color: white;
 }
@@ -377,7 +388,7 @@ body footer .upper-footer .contact {
 }
 body footer .upper-footer .contact ul .contact-us {
   color: white;
-  font-family: "Comfortaa";
+  font-family: "Comfortaa", cursive;
   font-style: normal;
   font-weight: 700;
   font-size: 48px;
